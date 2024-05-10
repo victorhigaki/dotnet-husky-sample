@@ -8,6 +8,12 @@
             "command": "cmd",
             "args": ["/c", "echo Husky.Net is awesome!" ]
          }
+      },
+      {
+         "name": "format-staged",
+         "command": "dotnet",
+         "args": ["format", "--include", "${staged}"],
+         "includes": ["**/*.cs"]
       }
    ]
 }
