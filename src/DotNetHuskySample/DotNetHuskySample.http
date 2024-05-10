@@ -1,0 +1,6 @@
+@DotNetHuskySample_HostAddress = http://localhost:5192
+
+GET {{DotNetHuskySample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
